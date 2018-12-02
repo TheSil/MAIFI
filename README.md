@@ -8,39 +8,7 @@ All the requests and responses are done in [JSON](https://en.wikipedia.org/wiki/
 
 # Version
 
-Current version in progress is 1.0.0. There is no older version.
-
-# Specification
-The specification describes following messages:
-- GetBoardInfo
-- BoardInfo
-- FlagField
-- RevealField
-
-## GetBoardInfo
-Request for getting current board state information. 
-
-TODO
-
-
-## BoardInfo
-It includes information about board layout, number of mines as well as individual fields state. Sent as a response to GetBoardInfo
-
-TODO
-
-
-## FlagField
-
-Request to flag given field.
-
-TODO
-
-## RevealField
-Request to revel given field.
-
-TODO
-
-
+Current version in progress is [1.0.0](v1.md). There is no older version.   
 
 # MAIFI compliant Minesweeper implementations
 Currently there are no compliant implementations.
